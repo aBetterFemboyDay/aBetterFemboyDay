@@ -11,6 +11,7 @@ body {
   border-top: 50px Solid #111111;
   margin: 0px;
   font-family: 'Quicksand', monospace;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -27,6 +28,7 @@ h2 {
   font-family: "Poetsen One", 'courier', monospace;
   font-size: 40px;
   margin: 0px;
+  margin-top: 200px;
   margin-left: 250px;
   margin-right: 250px;
   color: #e6e6e6;
@@ -40,10 +42,12 @@ h2 {
 
 p {
   font-family: 'Quicksand', monospace;
+  line-height: 2;
   font-size: 30px;
   color: #000000;
   text-align: left;
   margin: 200px;
+  margin-bottom: 0px;
   margin-top: 0px;
   display: flex;
   background-color: #e6e6e6;
@@ -76,12 +80,15 @@ ul li a {
   color: #e6e6e6;
 }
 
-img {
-  width: 75%;
-  height: auto;
+footer {
+  padding-top: 250px;
+  font-size: 20px;
 }
 
-div{
+img {
+  float: center;
+  width: 75%;
+  height: auto;
 }
 
 255, 167, 209
